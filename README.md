@@ -26,7 +26,13 @@ The Wwise project is inside the **MyUE5_Wwise_Project** folder.
 
 **About Compiler Versions:**
 
+WINDOWS:
+
 - _Visual Studio 2019 v16.11.5 to 2022 are currently compatible with UE5_.
+- _Its essential to install these Workloads: **".NET Desktop Development"**, **"Desktop Development With C++"**, and **"Game Development With C++"**._\
+  **Here is a useful video on how to set up VS for UE5 Development:** [LINK](https://youtu.be/8xJRr6Yr_LU?t=105)
+
+MAC:
 - _Xcode v12.4 to 13.4.1 are currently compatible with UE5_.
 
 Enjoy!
@@ -47,8 +53,15 @@ El proyecto Wwise se encuentra en la carpeta **MyUE5_Wwise_Project**.
 
 **Sobre las versiones del compilador:**
 
-- _Visual Studio 2019 v16.11.5 a 2022 son actualmente compatibles con UE5_.
-- _Xcode v12.4 a 13.4.1 son actualmente compatibles con UE5_.
+WINDOWS:
+
+- _Visual Studio 2019 v16.11.5 a la 2022 son actualmente compatibles con UE5_.
+- _Es esencial instalar estas cargas de trabajo: **".NET Para El Escritorio"**, **"Desarrollo Para El Escritorio Con C++"**, and **"Desarrolo De Juegos Con C++"**._\
+  **Aquí hay un vídeo muy útil sobre cómo configurar VS para desarrollo en UE5:** [LINK](https://youtu.be/8xJRr6Yr_LU?t=105)
+
+MAC:
+
+- _Xcode v12.4 a la 13.4.1 son actualmente compatibles con UE5_.
 
 Disfruta!
 
