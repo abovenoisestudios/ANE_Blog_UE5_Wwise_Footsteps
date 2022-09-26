@@ -71,7 +71,7 @@ Disfruta!
 
 ## C++ Implementation
 
-
+<img height="454.5" src="/Volumes/Projects/6. REPOSITORIES/2022/9. Sep/ANE_Blog_UE5_Wwise_Footsteps/Images/15. Full .cpp file.png" title="Full Cpp file" width="826"/>
 
 ## Blueprint Implementation
 
