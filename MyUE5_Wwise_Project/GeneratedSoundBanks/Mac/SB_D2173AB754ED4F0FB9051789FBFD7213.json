@@ -1,0 +1,276 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "/Users/horacio/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Projects/6. REPOSITORIES/2022/9. Sep/ANE_Blog_UE5_Wwise_Footsteps/MyUE5_Wwise_Project/",
+   "SourceFilesRoot": "/Users/horacio/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Projects/6. REPOSITORIES/2022/9. Sep/ANE_Blog_UE5_Wwise_Footsteps/MyUE5_Wwise_Project/.cache/Mac/",
+   "SoundBanksRoot": "/Users/horacio/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Projects/6. REPOSITORIES/2022/9. Sep/ANE_Blog_UE5_Wwise_Footsteps/MyUE5_Wwise_Project/GeneratedSoundBanks/Mac/",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "/Users/horacio/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Projects/6. REPOSITORIES/2022/9. Sep/ANE_Blog_UE5_Wwise_Footsteps/MyUE5_Wwise_Project/GeneratedSoundBanks/Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2974328784",
+    "GUID": "{B148A7D0-A7D0-17D0-D0D0-D0D0D0D0D0D0}",
+    "Language": "SFX",
+    "Hash": "1650864801",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_D2173AB754ED4F0FB9051789FBFD7213",
+    "ShortName": "SB_D2173AB754ED4F0FB9051789FBFD7213",
+    "Path": "SB_D2173AB754ED4F0FB9051789FBFD7213.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3854155799",
+      "Name": "Play_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
+      "GUID": "{D2173AB7-54ED-4F0F-B905-1789FBFD7213}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.39",
+      "DurationMax": "0.727",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "47342949",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Gravel\\sx_character_WORLD_footsteps_gravel_1.wav",
+        "Path": "SFX/Footsteps/Gravel/sx_character_WORLD_footsteps_gravel_1_10C4C929.wem"
+       },
+       {
+        "Id": "87617241",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Asphalt\\sx_character_WORLD_footsteps_asphalt_5.wav",
+        "Path": "SFX/Footsteps/Asphalt/sx_character_WORLD_footsteps_asphalt_5_10C4C929.wem"
+       },
+       {
+        "Id": "121973728",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Gravel\\sx_character_WORLD_footsteps_gravel_4.wav",
+        "Path": "SFX/Footsteps/Gravel/sx_character_WORLD_footsteps_gravel_4_10C4C929.wem"
+       },
+       {
+        "Id": "164977115",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Gravel\\sx_character_WORLD_footsteps_gravel_2.wav",
+        "Path": "SFX/Footsteps/Gravel/sx_character_WORLD_footsteps_gravel_2_10C4C929.wem"
+       },
+       {
+        "Id": "199753695",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Wood\\sx_character_WORLD_footsteps_wood_5.wav",
+        "Path": "SFX/Footsteps/Wood/sx_character_WORLD_footsteps_wood_5_10C4C929.wem"
+       },
+       {
+        "Id": "226644066",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Gravel\\sx_character_WORLD_footsteps_gravel_5.wav",
+        "Path": "SFX/Footsteps/Gravel/sx_character_WORLD_footsteps_gravel_5_10C4C929.wem"
+       },
+       {
+        "Id": "256263906",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Wood\\sx_character_WORLD_footsteps_wood_4.wav",
+        "Path": "SFX/Footsteps/Wood/sx_character_WORLD_footsteps_wood_4_10C4C929.wem"
+       },
+       {
+        "Id": "265479345",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Wood\\sx_character_WORLD_footsteps_wood_2.wav",
+        "Path": "SFX/Footsteps/Wood/sx_character_WORLD_footsteps_wood_2_10C4C929.wem"
+       },
+       {
+        "Id": "290492006",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Asphalt\\sx_character_WORLD_footsteps_asphalt_2.wav",
+        "Path": "SFX/Footsteps/Asphalt/sx_character_WORLD_footsteps_asphalt_2_10C4C929.wem"
+       },
+       {
+        "Id": "579473283",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Asphalt\\sx_character_WORLD_footsteps_asphalt_1.wav",
+        "Path": "SFX/Footsteps/Asphalt/sx_character_WORLD_footsteps_asphalt_1_10C4C929.wem"
+       },
+       {
+        "Id": "623920511",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Gravel\\sx_character_WORLD_footsteps_gravel_3.wav",
+        "Path": "SFX/Footsteps/Gravel/sx_character_WORLD_footsteps_gravel_3_10C4C929.wem"
+       },
+       {
+        "Id": "641212086",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Wood\\sx_character_WORLD_footsteps_wood_1.wav",
+        "Path": "SFX/Footsteps/Wood/sx_character_WORLD_footsteps_wood_1_10C4C929.wem"
+       },
+       {
+        "Id": "655925523",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Asphalt\\sx_character_WORLD_footsteps_asphalt_4.wav",
+        "Path": "SFX/Footsteps/Asphalt/sx_character_WORLD_footsteps_asphalt_4_10C4C929.wem"
+       },
+       {
+        "Id": "876419310",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Grass\\sx_character_WORLD_footsteps_grass_5.wav",
+        "Path": "SFX/Footsteps/Grass/sx_character_WORLD_footsteps_grass_5_10C4C929.wem"
+       },
+       {
+        "Id": "911334238",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Grass\\sx_character_WORLD_footsteps_grass_3.wav",
+        "Path": "SFX/Footsteps/Grass/sx_character_WORLD_footsteps_grass_3_10C4C929.wem"
+       },
+       {
+        "Id": "931545546",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Wood\\sx_character_WORLD_footsteps_wood_3.wav",
+        "Path": "SFX/Footsteps/Wood/sx_character_WORLD_footsteps_wood_3_10C4C929.wem"
+       },
+       {
+        "Id": "940024182",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Grass\\sx_character_WORLD_footsteps_grass_1.wav",
+        "Path": "SFX/Footsteps/Grass/sx_character_WORLD_footsteps_grass_1_10C4C929.wem"
+       },
+       {
+        "Id": "967728503",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Grass\\sx_character_WORLD_footsteps_grass_2.wav",
+        "Path": "SFX/Footsteps/Grass/sx_character_WORLD_footsteps_grass_2_10C4C929.wem"
+       },
+       {
+        "Id": "987723198",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Asphalt\\sx_character_WORLD_footsteps_asphalt_3.wav",
+        "Path": "SFX/Footsteps/Asphalt/sx_character_WORLD_footsteps_asphalt_3_10C4C929.wem"
+       },
+       {
+        "Id": "1039864932",
+        "Language": "SFX",
+        "ShortName": "Footsteps\\Grass\\sx_character_WORLD_footsteps_grass_4.wav",
+        "Path": "SFX/Footsteps/Grass/sx_character_WORLD_footsteps_grass_4_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{6D16C176-FD79-4514-9FBA-3487CA85F085}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{B42F281C-6DB1-474E-BAE8-ED539B050FD2}",
+        "Media": [
+         {
+          "Id": "199753695"
+         },
+         {
+          "Id": "256263906"
+         },
+         {
+          "Id": "265479345"
+         },
+         {
+          "Id": "641212086"
+         },
+         {
+          "Id": "931545546"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{1118453A-8FE5-4609-8691-0F0073E0CA07}",
+        "Media": [
+         {
+          "Id": "876419310"
+         },
+         {
+          "Id": "911334238"
+         },
+         {
+          "Id": "940024182"
+         },
+         {
+          "Id": "967728503"
+         },
+         {
+          "Id": "1039864932"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{FB076159-D68A-4340-9A7B-686AA66EF544}",
+        "Media": [
+         {
+          "Id": "87617241"
+         },
+         {
+          "Id": "290492006"
+         },
+         {
+          "Id": "579473283"
+         },
+         {
+          "Id": "655925523"
+         },
+         {
+          "Id": "987723198"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{6D16C176-FD79-4514-9FBA-3487CA85F085}",
+        "Media": [
+         {
+          "Id": "47342949"
+         },
+         {
+          "Id": "121973728"
+         },
+         {
+          "Id": "164977115"
+         },
+         {
+          "Id": "226644066"
+         },
+         {
+          "Id": "623920511"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
+      "GUID": "{2131F275-F770-454F-80B2-59E1EED146BC}",
+      "Switches": [
+       {
+        "Id": "2185786256",
+        "Name": "Gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Gravel",
+        "GUID": "{6D16C176-FD79-4514-9FBA-3487CA85F085}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Grass",
+        "GUID": "{1118453A-8FE5-4609-8691-0F0073E0CA07}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Wood",
+        "GUID": "{B42F281C-6DB1-474E-BAE8-ED539B050FD2}"
+       },
+       {
+        "Id": "4169408098",
+        "Name": "Asphalt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Asphalt",
+        "GUID": "{FB076159-D68A-4340-9A7B-686AA66EF544}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
