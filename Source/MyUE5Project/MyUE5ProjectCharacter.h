@@ -5,7 +5,7 @@
 #include "AkComponent.h" // Include this directive to access Ak Component.
 #include "AkSwitchValue.h" // Include this directive to access Ak Switch Value.
 #include "PhysicalMaterials/PhysicalMaterial.h" // Include this directive to work with Physical Materials.
-
+#include "Quartz/QuartzSubsystem.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "MyUE5ProjectCharacter.generated.h"
@@ -15,6 +15,9 @@ class AMyUE5ProjectCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
+	UQuartzSubsystem* Clock;
+
+	
 	/** Camera boom positioning the camera behind the character */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
@@ -31,7 +34,7 @@ public:
 
 protected:
 	
-	#pragma region Wwise Footsteps Parameter Declarations
+	#pragma region Wwise Footsteps Switch Declarations
 	
 	/** Ak Audio Component. Created in the class constructor. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Audio")
@@ -69,6 +72,10 @@ protected:
 	UFUNCTION(BlueprintCallable, Category="Audio")
 	void SetFootstepsSwitch(const UPhysicalMaterial* HitPhysicalMaterial, const bool &bDebug, const UAkSwitchValue* DefaultAkSwitchValue);
 	
+	/** In case you want to implement On Landing Sounds. Callable from Blueprints*/
+    UFUNCTION(BlueprintCallable)
+    virtual void Landed(const FHitResult& Hit) override;
+    
 	#pragma endregion
 	
 	/** Called for forwards/backward input */

@@ -4,7 +4,6 @@
 
 #include "Kismet/KismetSystemLibrary.h" // Include this directive to access the Line Trace functions.
 
-#include "Animation/AnimInstanceProxy.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
@@ -61,7 +60,8 @@ AMyUE5ProjectCharacter::AMyUE5ProjectCharacter()
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
 }
 
-#pragma region Wwise Footsteps Parameter Implementation
+
+#pragma region Wwise Footsteps Switch Implementation
 
 UPhysicalMaterial* AMyUE5ProjectCharacter::GetPhysicalMaterialByLineTrace(const float &OffsetZ, const bool &bDebug)
 {
@@ -71,14 +71,14 @@ UPhysicalMaterial* AMyUE5ProjectCharacter::GetPhysicalMaterialByLineTrace(const 
 	FHitResult HitResult; // This struct will hold the line trace hit results.   
 	
 	if (bDebug) // Activate line trace visibility?                          
-		DebugType = EDrawDebugTrace::ForOneFrame;
+		DebugType = EDrawDebugTrace::ForDuration;
 	else                                          
 		DebugType = EDrawDebugTrace::None;       
 
 	// Line trace function.
 	UKismetSystemLibrary::LineTraceSingle(this, LineStart, LineEnd,
 		UEngineTypes::ConvertToTraceType(ECC_Visibility),false,
-		TArray<AActor*>(), DebugType, HitResult, true,FLinearColor::Green, FLinearColor::Red);       
+		TArray<AActor*>(), DebugType, HitResult, true,FLinearColor::Red, FLinearColor::Red, 2.0f);       
 	
 	return Cast<UPhysicalMaterial>(HitResult.PhysMaterial); // Cast and return the Physical Material from HitResult.
 }
@@ -94,7 +94,7 @@ void AMyUE5ProjectCharacter::SetFootstepsSwitch(const UPhysicalMaterial* HitPhys
 		if (bDebug) // If true, prints the name of the Physical Material to the screen and "C++ Implementation".
 			{
 			GEngine->AddOnScreenDebugMessage(0, 1, FColor::Orange,
-				"Physical Material: " + HitPhysicalMaterial->GetName());
+			"Physical Material: " + HitPhysicalMaterial->GetName());
 
 			GEngine->AddOnScreenDebugMessage(1, 1, FColor::Red,
 			"C++ Implementation");
@@ -107,6 +107,11 @@ void AMyUE5ProjectCharacter::SetFootstepsSwitch(const UPhysicalMaterial* HitPhys
 }
 
 #pragma endregion 
+
+void AMyUE5ProjectCharacter::Landed(const FHitResult& Hit)
+{
+	Super::Landed(Hit);
+}
 
 //////////////////////////////////////////////////////////////////////////
 // Input
