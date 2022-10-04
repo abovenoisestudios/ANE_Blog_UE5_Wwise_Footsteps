@@ -56,7 +56,7 @@ El proyecto Wwise se encuentra en la carpeta **MyUE5_Wwise_Project**.
 WINDOWS:
 
 - _Visual Studio 2019 v16.11.5 a la 2022 son actualmente compatibles con UE5_.
-- _Es esencial instalar estas cargas de trabajo: **".NET Para El Escritorio"**, **"Desarrollo Para El Escritorio Con C++"**, and **"Desarrolo De Juegos Con C++"**._\
+- _Es esencial instalar estas cargas de trabajo: **".NET Para El Escritorio"**, **"Desarrollo Para El Escritorio Con C++"**, y **"Desarrolo De Juegos Con C++"**._\
   **Aquí hay un vídeo muy útil sobre cómo configurar VS para desarrollo en UE5:** [LINK](https://youtu.be/8xJRr6Yr_LU?t=105)
 
 MAC:

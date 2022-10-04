@@ -77,4 +77,5 @@ DerivedDataCache/*
 MyUE5_Wwise_Project/.cache
 Plugins/Developer
 Plugins/Wwise
+*.prof
 .idea
