@@ -26,7 +26,7 @@ Double-click on **MyUE5Project.uproject** to open the UE5 project.
 
 **Rebuild the project:**
 
-<img height="261" src="/Volumes/Projects/6. REPOSITORIES/2022/9. Sep/ANE_Blog_UE5_Wwise_Footsteps/Images/Rebuild Project.png" width="249"/>
+<img height="261" src="Images/Rebuild Project.png" width="249"/>
 
 The Wwise project is inside the **MyUE5_Wwise_Project** folder.
 
@@ -59,7 +59,7 @@ Haz doble click en **MyUE5Project.uproject** para abrir el proyecto UE5.
 
 **Reconstruye el proyecto:**
 
-<img height="261" src="/Volumes/Projects/6. REPOSITORIES/2022/9. Sep/ANE_Blog_UE5_Wwise_Footsteps/Images/Rebuild Project.png" width="249"/>
+<img height="261" src="Images/Rebuild Project.png" width="249"/>
 
 El proyecto Wwise se encuentra en la carpeta **MyUE5_Wwise_Project**.
 
