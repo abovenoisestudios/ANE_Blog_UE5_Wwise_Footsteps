@@ -21,7 +21,13 @@ To download this project, click on the **Code** button and **Download Zip**.\
 Please click on this [LINK](https://drive.google.com/drive/folders/1ML9JwAD7PLmv4E-suevWdLr2XJtf5TJ3?usp=sharing) to download the Wwise plugin integration, then unzip and paste the "Wwise" folder inside the "Plugins" folder.
 
 To rebuild and compile the project, ensure you have [Visual Studio](https://visualstudio.microsoft.com/) for Windows or [Xcode](https://download.developer.apple.com/Developer_Tools/Xcode_13.4.1/Xcode_13.4.1.xip) for Mac.
+Right-click on **MyUE5Project.uproject** and choose **"Generate Visual Studio Project Files"** on Windows or **Services > "Generate Xcode project"** on Mac.
 Double-click on **MyUE5Project.uproject** to open the UE5 project.
+
+**Rebuild the project:**
+
+<img height="261" src="/Volumes/Projects/6. REPOSITORIES/2022/9. Sep/ANE_Blog_UE5_Wwise_Footsteps/Images/Rebuild Project.png" width="249"/>
+
 The Wwise project is inside the **MyUE5_Wwise_Project** folder.
 
 **About Compiler Versions:**
@@ -48,7 +54,13 @@ Para descargar este proyecto, da click en el botón **Code** y luego en **Downlo
 Da click en este [LINK](https://drive.google.com/drive/folders/1ML9JwAD7PLmv4E-suevWdLr2XJtf5TJ3?usp=sharing) para descargar el plugin de integración de Wwise, luego descomprime y pega la carpeta "Wwise" dentro de la carpeta "Plugins".
 
 Para construir y compilar el proyecto, asegúrate de tener [Visual Studio](https://visualstudio.microsoft.com/) para Windows o [Xcode](https://download.developer.apple.com/Developer_Tools/Xcode_13.4.1/Xcode_13.4.1.xip).
-Haz double click en **MyUE5Project.uproject** para abrir el proyecto UE5.
+Haz click derecho en **MyUE5Project.uproject** y selecciona **"Generate Visual Studio Project Files"** en Windows o **Services > "Generate Xcode project"** en Mac.
+Haz doble click en **MyUE5Project.uproject** para abrir el proyecto UE5.
+
+**Reconstruye el proyecto:**
+
+<img height="261" src="/Volumes/Projects/6. REPOSITORIES/2022/9. Sep/ANE_Blog_UE5_Wwise_Footsteps/Images/Rebuild Project.png" width="249"/>
+
 El proyecto Wwise se encuentra en la carpeta **MyUE5_Wwise_Project**.
 
 **Sobre las versiones del compilador:**

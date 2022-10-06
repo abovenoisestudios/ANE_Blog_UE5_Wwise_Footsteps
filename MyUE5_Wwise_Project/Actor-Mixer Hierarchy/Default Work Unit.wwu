@@ -22,7 +22,21 @@
 						<RandomSequenceContainer Name="Asphalt" ID="{BA1DB071-CCF2-4AA8-88DD-D5CA41E9FCE8}" ShortID="883568223">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="27"/>
+								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{EDE65E16-058F-41CF-BD26-5EA01A58C704}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="25"/>
+													<Property Name="Min" Type="Real64" Value="-25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -154,12 +168,26 @@
 						<RandomSequenceContainer Name="Grass" ID="{C58B04E6-77D3-43D6-BFC1-66AD9DD166A0}" ShortID="975522914">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 								<Property Name="MakeUpGain" Type="Real64">
 									<ValueList>
 										<Value>-2</Value>
 									</ValueList>
 								</Property>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6BF5A91E-8CAB-4516-9249-300CBF15ADF3}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="25"/>
+													<Property Name="Min" Type="Real64" Value="-25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -291,12 +319,26 @@
 						<RandomSequenceContainer Name="Gravel" ID="{FD60B494-2AE2-464E-88A2-B6B15D09CB7B}" ShortID="887630973">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 								<Property Name="MakeUpGain" Type="Real64">
 									<ValueList>
 										<Value>-1.5</Value>
 									</ValueList>
 								</Property>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6212FC26-A5D8-4212-9742-053F69FA11F9}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="25"/>
+													<Property Name="Min" Type="Real64" Value="-25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -428,12 +470,26 @@
 						<RandomSequenceContainer Name="Wood" ID="{4F1ADC5A-0DA7-48B5-A46E-573A21AAC018}" ShortID="804302176">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="8"/>
+								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 								<Property Name="MakeUpGain" Type="Real64">
 									<ValueList>
 										<Value>1</Value>
 									</ValueList>
 								</Property>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5AEE3D6A-0901-45F4-875E-2A3012E5EFDB}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="25"/>
+													<Property Name="Min" Type="Real64" Value="-25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

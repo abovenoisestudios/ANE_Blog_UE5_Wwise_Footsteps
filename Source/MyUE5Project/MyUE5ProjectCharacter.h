@@ -5,7 +5,7 @@
 #include "AkComponent.h" // Include this directive to access Ak Component.
 #include "AkSwitchValue.h" // Include this directive to access Ak Switch Value.
 #include "PhysicalMaterials/PhysicalMaterial.h" // Include this directive to work with Physical Materials.
-#include "Quartz/QuartzSubsystem.h"
+
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "MyUE5ProjectCharacter.generated.h"
@@ -71,12 +71,12 @@ protected:
 	 */
 	UFUNCTION(BlueprintCallable, Category="Audio")
 	void SetFootstepsSwitch(const UPhysicalMaterial* HitPhysicalMaterial, const bool &bDebug, const UAkSwitchValue* DefaultAkSwitchValue);
+
+	#pragma endregion
 	
 	/** In case you want to implement On Landing Sounds. Callable from Blueprints*/
     UFUNCTION(BlueprintCallable)
     virtual void Landed(const FHitResult& Hit) override;
-    
-	#pragma endregion
 	
 	/** Called for forwards/backward input */
 	void MoveForward(float Value);
