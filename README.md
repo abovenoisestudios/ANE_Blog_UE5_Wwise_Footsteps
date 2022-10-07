@@ -30,6 +30,8 @@ Double-click on **MyUE5Project.uproject** to open the UE5 project.
 
 The Wwise project is inside the **MyUE5_Wwise_Project** folder.
 
+**IMPORTANT:** If you can't hear any sound, go to **Build > Generate Sound Data** and choose your platform.
+
 **About Compiler Versions:**
 
 WINDOWS:
@@ -62,6 +64,8 @@ Haz doble click en **MyUE5Project.uproject** para abrir el proyecto UE5.
 <img height="261" src="Images/Rebuild Project.png" width="249"/>
 
 El proyecto Wwise se encuentra en la carpeta **MyUE5_Wwise_Project**.
+
+**IMPORTANTE:** Si no hay sonido, ve a **Build > Generate Sound Data** y elige tu plataforma.
 
 **Sobre las versiones del compilador:**
 

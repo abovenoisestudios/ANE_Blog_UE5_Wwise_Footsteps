@@ -16,7 +16,7 @@
     "Id": "2974328784",
     "GUID": "{B148A7D0-A7D0-17D0-D0D0-D0D0D0D0D0D0}",
     "Language": "SFX",
-    "Hash": "1650864801",
+    "Hash": "2620079037",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_D2173AB754ED4F0FB9051789FBFD7213",
     "ShortName": "SB_D2173AB754ED4F0FB9051789FBFD7213",
     "Path": "SB_D2173AB754ED4F0FB9051789FBFD7213.bnk",
@@ -27,8 +27,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
       "GUID": "{D2173AB7-54ED-4F0F-B905-1789FBFD7213}",
       "DurationType": "OneShot",
-      "DurationMin": "0.39",
-      "DurationMax": "0.727",
+      "DurationMin": "0.384409",
+      "DurationMax": "0.737574",
       "ExcludedMemoryFiles": [
        {
         "Id": "47342949",
